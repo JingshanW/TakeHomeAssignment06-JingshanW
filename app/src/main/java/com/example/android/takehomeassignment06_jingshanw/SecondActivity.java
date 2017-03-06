@@ -24,6 +24,8 @@ public class SecondActivity extends AppCompatActivity {
         tip= (TextView) findViewById(R.id.tip);
         grandTotal= (TextView) findViewById(R.id.grand_total);
 
+
+
         Intent intent=getIntent();
         int total=intent.getIntExtra("AMOUNT",0);
         totalAmount.setText("Total: "+total);

@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView taxPercentage;
     private TextView tipPercentage;
 
-    static final int CALCULATOR_REQUEST = 1;  // The request code
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         amount= (TextView) findViewById(R.id.amount_text_view);
         taxPercentage= (TextView) findViewById(R.id.tax_percentage);
         tipPercentage= (TextView) findViewById(R.id.tip_percentage);
+
     }
 
     public void submit(View view)
